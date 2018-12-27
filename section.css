@@ -1,0 +1,192 @@
+@media only screen and (min-width: 321px) {
+/ Appareils avec une résolution au-dessus de 320px /
+}
+@media only screen and (max-width: 320px) {
+/ Appareils avec une résolution de 320 pixels ou moins /
+}
+#body
+
+{
+            width :100% ;
+            padding :0px ;
+}
+
+body /*Centrer le design */
+{
+   width: 1300px; /*largeur */
+   margin: auto; /* Pour centrer notre page */
+   margin-top: 30px; /* Pour éviter de coller avec le haut de la fenêtre du navigateur. Essayez d'enlever pour voir ! */
+   margin-bottom: 10px;    /* Idem pour le bas du navigateur */
+
+
+
+   font-family: 'Century Gothic', Calibri, serif;
+   font-size: 13px
+   padding: 0px
+}
+
+h1{
+  font-size: 60px;
+  font-weight: normal;
+  text-align: center;
+}
+header{
+  height: 100px;
+}
+
+ul li{
+   list-style-type: none;
+}
+
+.element1{
+  width: 650px;
+  text-align: center;
+
+}
+.element2{
+  width: 650px;
+  text-align: center;
+}
+
+.element{
+  display:flex;
+  width: 1300px;
+  height: 110px;
+}
+
+
+
+nav li{
+  list-style-type: none;
+  float:left;
+}
+nav ul{
+  margin: 0px;
+  padding: 0px;
+}
+nav{
+  width: 100%;
+  background-color: #bdc3c7;
+}
+
+nav p{
+  text-decoration: none;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 2px 25px;
+}
+.table{
+  display: table;
+  margin:0 auto;
+}
+
+.menu-pre:hover{
+background-color: #1abc9c;
+}
+
+.menu-comp:hover{
+background-color: #2ecc71;
+}
+
+.menu-for:hover{
+background-color: #3498db;
+}
+
+.menu-exp:hover{
+background-color: #9b59b6;
+}
+
+.menu-hob:hover{
+background-color: #f1c40f;
+}
+
+.menu-con:hover{
+background-color: #f39c12;
+}
+
+nav li:hover a{
+  padding: 15px 30px 20px 30px
+}
+
+
+.para{
+  width: 780px;
+  background-color: white;
+  border:30px;
+  height: 450;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.para2{
+  width: 460px;
+  background-color: #2ecc71;
+  height: 450;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+  float:left
+}
+.para3{
+  width: 460px;
+  background-color: #3498db;
+  height: 150;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.c1{
+  display:flex;
+  flex-direction: column;
+}
+
+section{
+  display: flex;
+}
+.form{
+  width: 780px;
+  background-color: #3498db;
+  height: 150;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.CI{
+  width: 460px;
+  background-color: white;
+  height: 150;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.c2{
+  display: flex;
+  flex-direction: row
+
+}
+
+footer{
+  height: 80px;
+  padding-top :30px;
+  text-align: center;
+  background-color: #7f8c8d;
+  border-top: 2px solid #AAA;
+  font-size: 16px;
+}
+
+  header{
+    height:50px
+  }
+  h1{
+    font-size: 28px;
+    margin: 20px 0px 0px 0px;
+  }
+  nav li a{
+    font-size: 12px;
+    padding: 10px;
+  }
+  nav li:hover a{
+    padding: 5px 10px 10px 10px;
+  }
+}
